@@ -34,3 +34,12 @@ window.addEventListener('click', function (e) {
      navmenu.classList.add('hidden');   
     }
 });
+
+// dark mode 
+
+const darkToggle = document.querySelector('#dark-toggle');
+const html = document.querySelector('html');
+
+darkToggle.addEventListener('click', function(){
+    darkToggle.checked ? html.classList.add('dark') : html.classList.remove('dark'); 
+});
