@@ -13,7 +13,7 @@ body {
 }
 
 .humberger-line {
-  @apply my-2 block h-[2px] w-[30px] bg-dark;
+  @apply my-2 block h-[2px] w-[30px] bg-dark dark:bg-white;
 }
 
 .humberger-active > span:nth-child(1) {
@@ -28,7 +28,7 @@ body {
 }
 
 .navbar-fixed {
-  @apply dark:bg-opacity-50s fixed z-[9999] bg-white bg-opacity-70 backdrop-blur-sm dark:bg-dark;
+  @apply fixed z-[9999] bg-white bg-opacity-70 backdrop-blur-sm dark:border-b-slate-700 dark:bg-dark dark:bg-opacity-50;
   box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
 }
 
